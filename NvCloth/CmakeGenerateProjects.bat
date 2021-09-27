@@ -55,17 +55,17 @@ REM pushd compiler\vc11win64-cmake\
 REM %CMAKE% ..\cmake\windows -G "Visual Studio 11 2012" -Ax64 %CMAKE_COMMON_PARAMS% -DPX_OUTPUT_DLL_DIR=%PX_OUTPUT_ROOT%\bin\vc11win64-cmake -DPX_OUTPUT_LIB_DIR=%PX_OUTPUT_ROOT%\lib\vc11win64-cmake -DPX_OUTPUT_EXE_DIR=%PX_OUTPUT_ROOT%\bin\vc11win64-cmake
 REM popd
 
-rmdir /s /q compiler\vc12win32-cmake\
-mkdir compiler\vc12win32-cmake\
-pushd compiler\vc12win32-cmake\
-%CMAKE% ..\cmake\windows -G "Visual Studio 12 2013" -AWin32 %CMAKE_COMMON_PARAMS% -DPX_OUTPUT_DLL_DIR=%PX_OUTPUT_ROOT%\bin\vc12win32-cmake -DPX_OUTPUT_LIB_DIR=%PX_OUTPUT_ROOT%\lib\vc12win32-cmake -DPX_OUTPUT_EXE_DIR=%PX_OUTPUT_ROOT%\bin\vc12win32-cmake
-popd
+REM rmdir /s /q compiler\vc12win32-cmake\
+REM mkdir compiler\vc12win32-cmake\
+REM pushd compiler\vc12win32-cmake\
+REM %CMAKE% ..\cmake\windows -G "Visual Studio 12 2013" -AWin32 %CMAKE_COMMON_PARAMS% -DPX_OUTPUT_DLL_DIR=%PX_OUTPUT_ROOT%\bin\vc12win32-cmake -DPX_OUTPUT_LIB_DIR=%PX_OUTPUT_ROOT%\lib\vc12win32-cmake -DPX_OUTPUT_EXE_DIR=%PX_OUTPUT_ROOT%\bin\vc12win32-cmake
+REM popd
 
-rmdir /s /q compiler\vc12win64-cmake\
-mkdir compiler\vc12win64-cmake\
-pushd compiler\vc12win64-cmake\
-%CMAKE% ..\cmake\windows -G "Visual Studio 12 2013" -Ax64 %CMAKE_COMMON_PARAMS% -DPX_OUTPUT_DLL_DIR=%PX_OUTPUT_ROOT%\bin\vc12win64-cmake -DPX_OUTPUT_LIB_DIR=%PX_OUTPUT_ROOT%\lib\vc12win64-cmake -DPX_OUTPUT_EXE_DIR=%PX_OUTPUT_ROOT%\bin\vc12win64-cmake
-popd
+REM rmdir /s /q compiler\vc12win64-cmake\
+REM mkdir compiler\vc12win64-cmake\
+REM pushd compiler\vc12win64-cmake\
+REM %CMAKE% ..\cmake\windows -G "Visual Studio 12 2013" -Ax64 %CMAKE_COMMON_PARAMS% -DPX_OUTPUT_DLL_DIR=%PX_OUTPUT_ROOT%\bin\vc12win64-cmake -DPX_OUTPUT_LIB_DIR=%PX_OUTPUT_ROOT%\lib\vc12win64-cmake -DPX_OUTPUT_EXE_DIR=%PX_OUTPUT_ROOT%\bin\vc12win64-cmake
+REM popd
 
 rmdir /s /q compiler\vc14win64-cmake\
 mkdir compiler\vc14win64-cmake\
